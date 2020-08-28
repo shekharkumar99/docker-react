@@ -1,5 +1,5 @@
 #code for production state
-FROM node:alpine as builder 
+FROM node:alpine 
 
 WORKDIR '/app'
 
