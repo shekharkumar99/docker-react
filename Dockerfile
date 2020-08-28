@@ -13,4 +13,5 @@ RUN npm run build
 # Code for run state
 
 FROM nginx
+EXPOSE 80
 COPY --from=builder /app/build /usr/share/nginx/html
